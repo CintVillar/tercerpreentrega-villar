@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
   }
-  
+  h1{
+    background-image: linear-gradient(yellow, grey);
+  }
   header {
     background-color: chocolate;
   }
