@@ -1,0 +1,24 @@
+@import "mixins";
+
+header {
+    background-color: chocolate;
+
+    nav {
+        text-align: right;
+        @include flex;
+    }
+
+
+
+    a {
+        color: aliceblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        font-size: xx-large;
+
+        &:hover {
+            color: black;
+            font-size: bold;
+        }
+    }
+}
