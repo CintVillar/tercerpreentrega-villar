@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+}
+header a {
+  text-decoration: none;
+  color: rgb(161, 240, 125);
+}
+header a:hover {
+  color: rgb(232, 240, 235);
+  font-weight: 300;
+}
+
+main {
+  background-color: rgb(160, 154, 154);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .tarjetas {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main .tarjetas:hover {
+  box-shadow: o 8px 16px rgba(0, 0, 0, 0.2);
+}
+main .tarjetas img {
+  width: 200px;
+  height: fit-content;
+  align-content: center;
+}
+main .tarjetas p {
+  font-family: Tahoma, sans-serif;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: blanchedalmond;
+  background-color: rgb(152, 140, 140);
+  text-align: center;
+  display: flex;
+  border-top-width: 10px;
+  font-family: Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
